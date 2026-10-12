@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameVerse - Play Without Limits</title>
+<link rel="icon" type="image/svg+xml" href="images/logo/favicon.svg">
+<link rel="icon" type="image/x-icon" href="images/logo/favicon.ico">
+<link rel="apple-touch-icon" href="images/logo/apple-touch-icon.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/extras.css">
+</head>
+<body>
+
+<div class="top-bar text-center">🎮 New games every week! <b>Join today</b> and play for free — <a href="signup.html" class="gradient-text fw-bold">Sign Up Now</a></div>
+
+<nav class="navbar navbar-expand-lg sticky-top gv-nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo/logo.svg" alt="logo"><div>GameVerse<small>PLAY • COMPETE • WIN</small></div></a>
+    <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><i class="bi bi-list text-white fs-2"></i></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="games.html">Games <span class="gv-new-pill">NEW</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#trending">Trending</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#categories">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="play.html">Play Now</a></li>
+        <li class="nav-item"><a class="nav-link" href="premium.html"><i class="bi bi-gem text-warning"></i> Premium</a></li>
+      </ul>
+      <div class="d-flex gap-2 align-items-center nav-actions">
+        <a href="games.html" class="text-white me-2" aria-label="Search"><i class="bi bi-search"></i></a>
+        <a href="signin.html" class="btn btn-outline-glow btn-sm">Sign In</a>
+        <a href="signup.html" class="btn btn-accent btn-sm">Get Started</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero">
+  <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4500">
+    <div class="carousel-indicators">
+      <button data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+      <button data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+      <button data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+      <button data-bs-target="#heroSlider" data-bs-slide-to="3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image:url(img/img1.avif),url(images/hero/hero1.svg)">
+        <div class="container"><div class="hero-content">
+          <div class="eyebrow">PLAY • COMPETE • WIN</div>
+          <h1>Gaming <span class="gradient-text">Without Limits</span></h1>
+          <p>Thousands of games, tournaments and originals. Anytime. Anywhere. On any device.</p>
+          <div class="btns d-flex gap-3"><a href="play.html" class="btn btn-accent"><i class="bi bi-play-fill"></i> Start Playing</a><a href="games.html" class="btn btn-outline-glow">Learn More</a></div>
+          <div class="features-row">
+            <div><i class="bi bi-lightning-charge"></i>Ad-Free<br>Experience</div>
+            <div><i class="bi bi-badge-hd"></i>HD &amp; 4K<br>Graphics</div>
+            <div><i class="bi bi-display"></i>Play<br>Everywhere</div>
+            <div><i class="bi bi-calendar-check"></i>Cancel<br>Anytime</div>
+          </div>
+        </div></div>
+      </div>
+      <div class="carousel-item" style="background-image:url(img/img2.avif),url(images/hero/hero2.svg)">
+        <div class="container"><div class="hero-content">
+          <div class="eyebrow">NEW RELEASE</div>
+          <h1>Race To <span class="gradient-text">Glory</span></h1>
+          <p>Turbo Rush is now live. Challenge your friends.</p>
+          <div class="btns"><a href="play.html" class="btn btn-accent">Play Now</a></div>
+        </div></div>
+      </div>
+      <div class="carousel-item" style="background-image:url(img/img3.avif),url(images/hero/hero3.svg)">
+        <div class="container"><div class="hero-content">
+          <div class="eyebrow">PUZZLE</div>
+          <h1>Escape The <span class="gradient-text">Maze</span></h1>
+          <p>Use your brain and escape the fastest.</p>
+          <div class="btns"><a href="games.html?cat=puzzle" class="btn btn-accent">Explore</a></div>
+        </div></div>
+      </div>
+      <div class="carousel-item" style="background-image:url(img/img17.avif),url(images/hero/hero4.svg)">
+        <div class="container"><div class="hero-content">
+          <div class="eyebrow">MULTIPLAYER</div>
+          <h1>Battle <span class="gradient-text">Royale</span></h1>
+          <p>100 players, one winner. Are you ready?</p>
+          <div class="btns"><a href="signup.html" class="btn btn-accent">Join Free</a></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRENDING -->
+<section class="section" id="trending">
+  <div class="container">
+    <div class="section-title"><h3>🔥 Trending Games</h3><a href="games.html">View All <i class="bi bi-arrow-right"></i></a></div>
+    <div class="slider-wrap">
+      <button class="slide-btn prev" data-dir="-1"><i class="bi bi-chevron-left"></i></button>
+      <div class="slider" id="trendSlider">
+        <a href="play.html?g=1" class="game-card"><span class="top-badge">TOP 10</span><img src="img/img4.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game1.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Neon Strike<br><span>Action • 2026</span></div></a>
+        <a href="play.html?g=2" class="game-card"><img src="img/img5.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game2.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Turbo Rush<br><span>Racing • 2026</span></div></a>
+        <a href="play.html?g=3" class="game-card"><img src="img/img6.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game3.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Mind Maze<br><span>Puzzle • 2026</span></div></a>
+        <a href="play.html?g=4" class="game-card"><img src="img/img7.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game4.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Lost Temple<br><span>Adventure • 2026</span></div></a>
+        <a href="play.html?g=5" class="game-card"><img src="img/img8.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game5.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Star Voyager<br><span>Sci-Fi • 2026</span></div></a>
+        <a href="play.html?g=6" class="game-card"><img src="img/img9.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game6.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Dark Hollow<br><span>Horror • 2026</span></div></a>
+        <a href="play.html?g=7" class="game-card"><img src="img/img10.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game7.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Goal Rush<br><span>Sports • 2026</span></div></a>
+        <a href="play.html?g=8" class="game-card"><img src="img/img11.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game8.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Candy Quest<br><span>Kids • 2026</span></div></a>
+        <a href="play.html?g=9" class="game-card"><img src="img/img12.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/trending/game9.svg'"><div class="play-ov"><i class="bi bi-play-circle-fill"></i></div><div class="info">Clash Arena<br><span>Strategy • 2026</span></div></a>
+      </div>
+      <button class="slide-btn next" data-dir="1"><i class="bi bi-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section pt-0" id="categories">
+  <div class="container">
+    <div class="section-title"><h3>Explore by Category</h3><a href="games.html">View All <i class="bi bi-arrow-right"></i></a></div>
+    <div class="cat-grid">
+      <a href="games.html?cat=action" class="cat"><img src="images/categories/action.svg" alt="">Action</a>
+      <a href="games.html?cat=racing" class="cat"><img src="images/categories/racing.svg" alt="">Racing</a>
+      <a href="games.html?cat=puzzle" class="cat"><img src="images/categories/puzzle.svg" alt="">Puzzle</a>
+      <a href="games.html?cat=adventure" class="cat"><img src="images/categories/adventure.svg" alt="">Adventure</a>
+      <a href="games.html?cat=scifi" class="cat"><img src="images/categories/scifi.svg" alt="">Sci-Fi</a>
+      <a href="games.html?cat=horror" class="cat"><img src="images/categories/horror.svg" alt="">Horror</a>
+      <a href="games.html?cat=sports" class="cat"><img src="images/categories/sports.svg" alt="">Sports</a>
+      <a href="games.html?cat=kids" class="cat"><img src="images/categories/kids.svg" alt="">Kids</a>
+      <a href="games.html?cat=strategy" class="cat"><img src="images/categories/strategy.svg" alt="">Strategy</a>
+    </div>
+  </div>
+</section>
+
+<!-- ORIGINALS -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="section-title"><h3>GameVerse Originals</h3><a href="games.html?cat=originals">View All <i class="bi bi-arrow-right"></i></a></div>
+    <div class="row g-3">
+      <div class="col-6 col-lg-3"><a href="play.html?g=10" class="orig"><img src="img/img13.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/originals/original1.svg'"><span>A GAMEVERSE ORIGINAL</span></a></div>
+      <div class="col-6 col-lg-3"><a href="play.html?g=11" class="orig"><img src="img/img14.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/originals/original2.svg'"><span>A GAMEVERSE ORIGINAL</span></a></div>
+      <div class="col-6 col-lg-3"><a href="play.html?g=12" class="orig"><img src="img/img15.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/originals/original3.svg'"><span>A GAMEVERSE ORIGINAL</span></a></div>
+      <div class="col-6 col-lg-3"><a href="play.html?g=13" class="orig"><img src="img/img16.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/originals/original4.svg'"><span>A GAMEVERSE ORIGINAL</span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREMIUM -->
+<section class="section pt-0" id="premium">
+  <div class="container">
+    <div class="section-title"><h3><i class="bi bi-gem text-warning"></i> Premium Games</h3><a href="premium.html">View All <i class="bi bi-arrow-right"></i></a></div>
+    <div class="row g-4" id="premiumPreview"></div>
+  </div>
+</section>
+
+<!-- DEVICES + TESTIMONIAL -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="devices">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-4">
+          <h2 class="fw-bold">Play<br>Everywhere</h2>
+          <p class="text-secondary">Your favorite games, on your favorite devices. Seamless gaming, wherever you are.</p>
+          <div class="dev-icons">
+            <div><i class="bi bi-tv"></i>Smart TV</div><div><i class="bi bi-phone"></i>Mobile</div>
+            <div><i class="bi bi-tablet"></i>Tablet</div><div><i class="bi bi-laptop"></i>Laptop</div><div><i class="bi bi-controller"></i>Console</div>
+          </div>
+        </div>
+        <div class="col-lg-4"><img src="img/img17.avif" alt="devices" onerror="this.onerror=null;this.src='images/devices/devices.svg'"></div>
+        <div class="col-lg-4">
+          <h5 class="fw-bold mb-3">Real Players, Real Fans</h5>
+          <div id="testiSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><div class="testimonial"><div class="d-flex gap-3 align-items-center"><img src="img/img18.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/avatars/user1.svg'"><div class="small">“GameVerse has completely changed my downtime. Amazing games!”<div class="stars">★★★★★</div><b>Rahul S.</b></div></div></div></div>
+              <div class="carousel-item"><div class="testimonial"><div class="d-flex gap-3 align-items-center"><img src="img/img19.avif" alt="" loading="lazy" onerror="this.onerror=null;this.src='images/avatars/user2.svg'"><div class="small">“Smooth gameplay and ad-free. Best platform!”<div class="stars">★★★★★</div><b>Priya M.</b></div></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="cta">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-4"><h3 class="fw-bold">A World of Gaming <span class="gradient-text">Is Just a Click Away</span></h3><p class="text-secondary mb-0">Join millions of players today.</p></div>
+        <div class="col-lg-4"><div class="row">
+          <div class="col-3 mini"><i class="bi bi-grid"></i>1000+<br>Games</div>
+          <div class="col-3 mini"><i class="bi bi-shield-check"></i>Exclusive<br>Originals</div>
+          <div class="col-3 mini"><i class="bi bi-phone-flip"></i>Multiple<br>Devices</div>
+          <div class="col-3 mini"><i class="bi bi-arrow-repeat"></i>Always<br>Updated</div>
+        </div></div>
+        <div class="col-lg-4 text-lg-end"><a href="signup.html" class="btn btn-accent btn-lg">Get Started Now <i class="bi bi-arrow-right"></i></a><div class="small text-secondary mt-2">No long-term contracts. Cancel anytime.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-3"><a class="navbar-brand" href="index.html"><img src="images/logo/logo.svg" alt="">GameVerse</a><p class="small text-secondary mt-3">More games. More fun.<br>A more connected gaming world.</p>
+        <div class="social"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a><a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a></div></div>
+      <div class="col-6 col-lg-2"><h6>Quick Links</h6><ul><li><a href="index.html">Home</a></li><li><a href="games.html">Games</a></li><li><a href="index.html#trending">Trending</a></li><li><a href="index.html#categories">Categories</a></li><li><a href="play.html">Play Now</a></li><li><a href="premium.html">Premium</a></li></ul></div>
+      <div class="col-6 col-lg-2"><h6><a href="support.html">Support</a></h6><ul><li><a href="help.html">Help Center</a></li><li><a href="account.html">Account</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms</a></li></ul></div>
+      <div class="col-6 col-lg-2"><h6>Company</h6><ul><li><a href="about.html">About</a></li><li><a href="careers.html">Careers</a></li><li><a href="press.html">Press</a></li><li><a href="partners.html">Partners</a></li></ul></div>
+      <div class="col-lg-3 news"><h6>Stay in the Loop</h6><p class="small text-secondary">Get the latest games, updates and offers.</p>
+        <form id="newsForm" class="input-group"><input type="email" class="form-control" placeholder="Enter your email address" required><button class="btn btn-accent"><i class="bi bi-arrow-right"></i></button></form></div>
+    </div>
+    <hr class="border-secondary mt-4">
+    <div class="d-flex justify-content-between small text-secondary flex-wrap"><span>© 2026 GameVerse. All rights reserved.</span><span>Entertainment for a Brighter Tomorrow.</span></div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/premium.js"></script>
+<script src="js/extras.js"></script>
+</body>
+</html>
